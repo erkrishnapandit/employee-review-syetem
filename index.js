@@ -44,10 +44,10 @@ app.set('layout extractScripts', true);
 app.use(express.static('./assets'));
 
 // Session middleware
-/********  adding middleware for the sessions ********/
+/* adding middleware for the sessions **/
 app.use(session({
-    // by default name:connect.sid,sid = session id 
-    // name:'employee_session',//cookie name when use passport
+    // by default name:connect.sid, sid = session id 
+    // name:'employee_session', //cookie name when use passport
     //TODO change the secret before deployment in production
     secret: env.DEVELOPMENT.session_secret,
     saveUninitialized: false, // when user is not logged in then should i save extra data.
