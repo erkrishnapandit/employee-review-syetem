@@ -14,8 +14,7 @@ const Flash_MW = require('./config/flashMiddleware');
 
 const app = express();
 
-const port = env.DEVELOPMENT.port || 5000; 
-// if undefined or operator return first truthy value
+const port = env.DEVELOPMENT.port || 5000;// if undefined or operator return first truthy value
 
 // middleware to parse req data in req.body(decode)
 app.use(express.urlencoded({ extended: false }));

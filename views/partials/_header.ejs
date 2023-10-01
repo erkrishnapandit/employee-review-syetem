@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg " id="navbar">
+<nav class="navbar navbar-expand-lg bg-primary" id="navbar">
     <div class="container-fluid" >
-      <span class="navbar-brand active" id="brand-name"  href="/">ERS</span>
+      <span class="navbar-brand active text-white" id="brand-name"  href="/">Employ Review System</span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,7 +25,7 @@
           <%if(locals.currentSessionUser){%>
             <li class="nav-item navbar-nav ">
               <button style="padding: 0;" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#showProfileModal" style="display: flex;justify-content: center;align-items: center;">
-                <span class="nav-link active" style="color: rgb(18, 196, 18);font-family: impact; font-size: 1.4rem;display: flex;justify-content: center;align-items: center;height:20px" > 
+                <span class="nav-link active" style="color: rgb(255, 162, 2);font-family: impact; font-size: 1.4rem;display: flex;justify-content: center;align-items: center;height:20px" > 
                 You :&nbsp; <%= currentSessionUser.name %>
                 </span>
               </button>
@@ -35,7 +35,7 @@
             
         </ul> 
          
-          <a class="nav-link active" href="/signout">Sign Out</a>       
+          <a class="nav-link active text-white" href="/signout">Sign Out</a>       
       </div>
     </div>
 </nav>
