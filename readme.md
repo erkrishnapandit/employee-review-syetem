@@ -18,32 +18,6 @@ Employee review System is an application to submit feedback toward each other’
 - Submit performance feedback.
 - Submit Feedback
  
- 
-## File Structure
-employee-review-system
-├── assets
-│   ├── images
-│   └── styles
-├── node_modules
-├── configs
-├── controllers
-├── models
-├── routers
-└── views
-|   ├── layouts
-│   |── pages
-│   │    ├── admin pages
-│   │    |── employee pages
-│   │    └── auth pages
-|   └── partials
-│        ├── admin
-│        |── employee
-|        └── _header.ejs
-├── index.js
-├── package-lock.json
-├── package.json
-└── readme.md
-
 
 ## Screenshot: Login-Page:
 ![App Screenshot](/assets/images/Login.png)
@@ -62,6 +36,9 @@ employee-review-system
 
 ## Screenshot: View Review:
 ![App Screenshot](/assets/images/ViewReview.png)
+
+## Screenshot: Update Review Text:
+![App Screenshot](/assets/images/UpdateFeedback.png)
 
 ## Screenshot: Veiw Feedback:
 ![App Screenshot](/assets/images/ViewFeedback.png)
